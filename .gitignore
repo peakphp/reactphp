@@ -1,0 +1,26 @@
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore app environment files
+.prod
+.staging
+.testing
+.dev
+.env
+composer.lock
+
+# folders to ignore
+/node_modules
+/_test
+/_temp
+/_backup
+/vendor
+/.idea
+/cache/*
